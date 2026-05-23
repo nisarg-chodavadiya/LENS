@@ -279,7 +279,7 @@ Bottom line: The motorcycle classification is unambiguous.
 ### 🎯 Future Works
 
 - 🔍 Evaluation Strategy.
-- 🔍 Domain Adoption Strategy for models trained by Transfer Learning.
+- 🔍 Domain Adoption Strategy.
 - 🤖 Add Support for other Most Frequently Used Pre-Trained Neural Networks Worldwide.
 - 🤖 Add Support for LLM models from Claude & Qwen.
 
