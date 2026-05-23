@@ -162,7 +162,7 @@ Every forward pass, the `ActivationLogger` records:
 - 🧮 **Pre-NMS candidate counts** at `conf > 0.25` and `conf > 0.5`
 - 🏆 **Winning detection's class logits** vs. runner-up logits
 
-`build_inference_log()` in [`lens/schema.py`](lens/schema.py) compresses this into the **7-block JSON structure** documented in §05 of the [framework report](lens_framework_report.html).
+`build_inference_log()` in [`lens/schema.py`](lens/schema.py) compresses this into the **7-block JSON structure**.
 
 <br/>
 
@@ -194,7 +194,7 @@ Every forward pass, the `ActivationLogger` records:
 | 🪝 [`lens/logger.py`](lens/logger.py) | PyTorch forward-hooks; architecture-tolerant (YOLOv8 / v11 / v26 nano) |
 | 📋 [`lens/schema.py`](lens/schema.py) | Builds the `inference_log.json` structure from raw hook data |
 | 🧬 [`lens/filter_patterns.py`](lens/filter_patterns.py) | MVP heuristic vocabulary |
-| 💬 [`lens/explainer.py`](lens/explainer.py) | LLM call (default `gpt-4o`) with stable system prompt + architecture summary |
+| 💬 [`lens/explainer.py`](lens/explainer.py) | LLM call (default `gpt-4o`) with stable system prompt + architecture summary + inference log |
 | ▶ [`run.py`](run.py) | CLI entry point |
 
 <br/>
@@ -268,7 +268,7 @@ Bottom line: The motorcycle classification is unambiguous.
 
 ## 🤝 Contributing
 
-LENS is early. 
+### LENS is early. 
 
 - 🐛 **Found a bug?** [Open an issue](../../issues/new)
 - 💡 **Have an idea?** Start a [discussion](../../discussions)
@@ -277,6 +277,7 @@ LENS is early.
 ### 🎯 Future Works
 
 - 🔍 Evaluation Strategy.
+- 🔍 Domain Adoption Strategy for models trained by Transfer Learning.
 - 🤖 Add Support for other Most Frequently Used Pre-Trained Neural Networks Worldwide.
 - 🤖 Add Support for LLM models from Claude & Qwen.
 
@@ -285,12 +286,11 @@ LENS is early.
 
 <div align="center">
 
-### _If you can't read your model, you don't really own it._
+### 🔍 Magnifying glass over a glowing neural network, rising from an open box — _"Let's unbox the blackbox."_
 
 **🤖 Built & Engineered by Nisarg C.**
 
 📬 **Get in touch:** [nisargc88@gmail.com](mailto:nisargc88@gmail.com)
 
-<sub>🔍 Magnifying glass over a glowing neural network, rising from an open box — _"Let's unbox the blackbox."_</sub>
 
 </div>
