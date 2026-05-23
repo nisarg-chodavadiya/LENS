@@ -276,7 +276,7 @@ Bottom line: The motorcycle classification is unambiguous.
 - 💡 **Have an idea?** Start a [discussion](../../discussions)
 - ⭐ **Like the project?** Drop a star — it genuinely helps
 
-### 🎯 Future Works
+### 🎯 Coming soon
 
 - 🔍 Evaluation Strategy.
 - 🔍 Domain Adoption Strategy.
