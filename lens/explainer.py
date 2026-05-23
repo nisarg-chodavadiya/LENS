@@ -34,7 +34,7 @@ class LensExplainer:
     def __init__(
         self,
         api_key: str | None = None,
-        model: str = "gpt-5.4",
+        model: str = "gpt-4o",
         max_tokens: int = 1024,
     ):
         self.client = OpenAI(api_key=api_key or os.environ.get("OPENAI_API_KEY"))
