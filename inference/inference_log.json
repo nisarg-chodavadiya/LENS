@@ -1,0 +1,88 @@
+{
+  "input": {
+    "image_path": "images2\\bike.jpg",
+    "image_size": [
+      1200,
+      800
+    ],
+    "image_region_of_detection": "middle-center"
+  },
+  "prediction": {
+    "class": "motorcycle",
+    "confidence": 0.924,
+    "bbox": [
+      177.7,
+      74.8,
+      1025.2,
+      730.2
+    ]
+  },
+  "class_logits": {},
+  "top_filters": [
+    {
+      "layer": "Conv_1",
+      "pattern": "horizontal_edge",
+      "strength": 117.767,
+      "peak_xy": [
+        28,
+        106
+      ]
+    },
+    {
+      "layer": "C3k2_2",
+      "pattern": "elongated_upright_shape",
+      "strength": 25.717,
+      "peak_xy": [
+        82,
+        59
+      ]
+    },
+    {
+      "layer": "SPPF_9",
+      "pattern": "scene_layout_summary",
+      "strength": 11.548,
+      "peak_xy": [
+        2,
+        13
+      ]
+    }
+  ],
+  "layer_flow": [
+    {
+      "stage": "layers_0-20",
+      "role": "edge_color_extraction",
+      "confidence_proxy": 0.006
+    },
+    {
+      "stage": "layers_2-22",
+      "role": "shape_composition",
+      "confidence_proxy": 0.002
+    },
+    {
+      "stage": "layer_9",
+      "role": "global_context",
+      "confidence_proxy": 0.003
+    },
+    {
+      "stage": "layer_10",
+      "role": "semantic_feature_encoding",
+      "confidence_proxy": 0.001
+    },
+    {
+      "stage": "layers_11-21",
+      "role": "multi_scale_fusion",
+      "confidence_proxy": 0.002
+    },
+    {
+      "stage": "layer_23",
+      "role": "final_classification",
+      "confidence_proxy": 1.0
+    }
+  ],
+  "fpn_activity": {},
+  "pre_nms": {
+    "candidates": 0,
+    "high_confidence": 0,
+    "final_detections": 1
+  }
+}
