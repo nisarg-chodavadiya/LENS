@@ -17,7 +17,7 @@
 
 <br/>
 
-### LENS -- The Explainable AI (xAI) for Neural Networks.
+### LENSv0.1.0 -- The Explainable AI (xAI) for Neural Networks.
 
 ### 🔍 _Feed YOLO weights + a single forward pass → get a paragraph back._
 ### 🧠 _No saliency maps. No GradCAM. Just **language**._
