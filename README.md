@@ -1,4 +1,4 @@
-<img width="1024" height="498" alt="LENS" src="https://github.com/user-attachments/assets/74f677e1-083a-49b2-8141-71719e8df2b7" />
+<img width="1024" height="498" alt="image" src="https://github.com/user-attachments/assets/37e8019e-06d6-4916-afb9-adfd3efea09e" />
 
 
 <!-- ────────  BADGE WALL  ──────── -->
@@ -211,7 +211,7 @@ Here's a real end-to-end run on `bike.jpg` using **YOLOv26n** weights.
 
 > The model drew a bounding box around the motorcycle with **0.92 confidence**.
 
-<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/8c7e02a9-d643-4689-a3d9-a6c190270eff" />
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/224ca356-eba3-42ac-ac2d-06fd9b400b8a" />
 
 <br/>
 
