@@ -9,7 +9,7 @@
 [![Ultralytics YOLO](https://img.shields.io/badge/YOLO-v8%20%C2%B7%20v11%20%C2%B7%20v26-00C2B8?style=for-the-badge&logo=ultralytics&logoColor=white)](https://docs.ultralytics.com/)
 [![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4o-412991?style=for-the-badge&logo=openai&logoColor=white)](https://platform.openai.com/)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-FFD700?style=flat-square)](LICENSE)
+[![License: AGPL](https://img.shields.io/badge/License-MIT-FFD700?style=flat-square)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-FF69B4?style=flat-square&logo=github)](#-contributing)
 [![Issues](https://img.shields.io/badge/Issues-open-22C55E?style=flat-square&logo=github)](../../issues)
 [![Stars](https://img.shields.io/badge/⭐-leave_a_star-FFA500?style=flat-square)](../../stargazers)
@@ -290,7 +290,7 @@ Bottom line: The motorcycle classification is unambiguous.
 
 ### 🔍 Magnifying glass over a glowing neural network, rising from an open box — _"Let's unbox the blackbox."_
 
-**🤖 Built & Engineered by Nisarg C.**
+**🤖 Built & Engineered by Nisarg Chodvadiya**
 
 📬 **Get in touch:** [nisargc88@gmail.com](mailto:nisargc88@gmail.com)
 
